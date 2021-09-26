@@ -1,0 +1,1 @@
+$(MP_EXTRA_AS_PRE)  -c -mprocessor=$(MP_PROCESSOR_OPTION) -DXPRJ_PIC32MZ2048EF_SK_HARD_FLOAT=$(CND_CONF)  -no-legacy-libc  -Wa,--defsym=__MPLAB_BUILD=1$(MP_EXTRA_AS_POST),--gdwarf-2 -I../../../Source/portable/MPLAB/PIC32MZ -I../ -DconfigUSE_TASK_FPU_SUPPORT=1 -mdfp="${DFP_DIR}"C:\Users\a18943\Documents\freertos-pic32mzef\Source\portable\MPLAB\PIC32MZ\port_asm.S

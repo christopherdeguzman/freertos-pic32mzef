@@ -1,0 +1,1 @@
+$(MP_EXTRA_AS_PRE)  -c -mprocessor=$(MP_PROCESSOR_OPTION) -DXPRJ_PIC32MZ2048_SK=$(CND_CONF)  -no-legacy-libc  -Wa,--defsym=__MPLAB_BUILD=1$(MP_EXTRA_AS_POST),--gdwarf-2 -I../../../Source/portable/MPLAB/PIC32MZ -I../ -mdfp="${DFP_DIR}"C:\cdeguzman\Training\One-Week\2021\Source\portable\MPLAB\PIC32MZ\port_asm.S
